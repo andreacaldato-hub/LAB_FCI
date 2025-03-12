@@ -1,8 +1,7 @@
 import requests
 
-n_richeste = 5  # Number of requests per site
+n_richeste = 5
 
-# Dictionary with None as initial values
 sito = {
     "https://example.com": None,
     "https://google.com": None,
@@ -13,15 +12,14 @@ for url in sito:
     tempi = []
     for _ in range(n_richeste):
         r = requests.get(url)
-        tempo = r.elapsed.microseconds / 1000  # Convert microseconds to milliseconds
+        tempo = r.elapsed.microseconds / 1000
         tempi.append(tempo)
 
-    medio = sum(tempi) / len(tempi)  # Calculate average response time
+    medio = sum(tempi) / len(tempi)
     print(f"Tempo medio per {url}: {medio:.2f} ms")
-    sito[url] = medio  # Store the average response time
+    sito[url] = medio
 
-# Find the URL with the best response time
-min_tempo = min(sito.values())  # Find the minimum response time
-best_url = min(sito, key=sito.get)  # Find the corresponding URL
+min_tempo = min(sito.values())
+best_url = min(sito, key=sito.get)
 
 print(f"Tempo medio migliore: {min_tempo:.2f} ms ({best_url})")
