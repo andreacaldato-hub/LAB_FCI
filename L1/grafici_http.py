@@ -1,4 +1,3 @@
-from numpy import size
 import requests
 from matplotlib import pyplot as plt
 
