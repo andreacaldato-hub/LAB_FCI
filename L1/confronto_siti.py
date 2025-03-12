@@ -9,7 +9,6 @@ sito = [
     "http://www.amazon.com",
     "http://www.pornhub.com",
     "http://www.youtube.com",
-    "http://www.snai.com",
 ]
 plt.figure()
 for sito in sito:
@@ -26,27 +25,3 @@ plt.ylabel("Tempo(ms)", size=25)
 plt.grid()
 plt.legend(loc=1, fontsize=10)
 plt.show()
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
-# asojfnsf
