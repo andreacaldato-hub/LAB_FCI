@@ -1,8 +1,7 @@
-# importo la libreria richieste http
 import requests
 
 # Effetto richista GEjjjT
-n_richeste = 10
+n_richeste = 20
 sito = "http://google.com"
 risorse = []
 for i in range(n_richeste):
