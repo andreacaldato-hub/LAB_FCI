@@ -1,3 +1,4 @@
+from numpy._core.fromnumeric import size
 import requests
 from matplotlib import pyplot as plt
 
@@ -6,7 +7,9 @@ n_richeste = 10
 sito = [
     "http://google.com",
     "http://www.amazon.com",
-    "http://youtube.com",
+    "http://www.pornhub.com",
+    "http://www.youtube.com",
+    "http://www.snai.com",
 ]
 plt.figure()
 for sito in sito:
@@ -16,10 +19,10 @@ for sito in sito:
         tempo = r.elapsed.microseconds / 1000
         tempi.append(tempo)
     Min = min(tempi)
-    print(f"Tempo minimo per {sito}: {Min}")
-    plt.plot(tempi, label=sito)
-plt.xlabel("Id richista", size=25)
+    # print(f"Tempo minimo per {sito}: {Min}")
+    plt.plot(tempi, label=sito)  # 🔥 Increase line thickness
+plt.xlabel("Id richiesta", size=25)
 plt.ylabel("Tempo(ms)", size=25)
 plt.grid()
-plt.legend(loc=1, fontsize=25)
+plt.legend(loc=1, fontsize=10)
 plt.show()
