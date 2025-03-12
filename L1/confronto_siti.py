@@ -26,3 +26,27 @@ plt.ylabel("Tempo(ms)", size=25)
 plt.grid()
 plt.legend(loc=1, fontsize=10)
 plt.show()
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
+# asojfnsf
