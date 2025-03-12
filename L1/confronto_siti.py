@@ -1,14 +1,13 @@
-from numpy._core.fromnumeric import size
 import requests
 from matplotlib import pyplot as plt
 
 # Effetto richista GEjjjT
 n_richeste = 10
 sito = [
-    "http://google.com",
-    "http://www.amazon.com",
-    "http://www.pornhub.com",
-    "http://www.youtube.com",
+    "http://www.wikipedia.org",
+    "http://www.siti.org",
+    "http://www.sitinazionale.org",
+    "http://www.irs.gov",
 ]
 plt.figure()
 for sito in sito:

@@ -3,7 +3,7 @@ import requests
 
 # Effetto richista GEjjjT
 n_richeste = 10
-sito = "http://google.com"
+sito = "http://wikipedia.org"
 for i in range(n_richeste):
     r = requests.get(sito)
     tempo = r.elapsed.microseconds / 1000
