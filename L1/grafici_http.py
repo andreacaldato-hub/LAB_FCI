@@ -3,11 +3,13 @@ from matplotlib import pyplot as plt
 
 n_richeste = 20
 sito = "http://www.polimi.it"
+
 Lista_tempo = []
 for i in range(n_richeste):
     r = requests.get(sito)
     tempo = r.elapsed.microseconds / 1000
     Lista_tempo.append(tempo)
+    print(f"Richiesta {i + 1} completata in tempo: {tempo} ms")
 # print(r.content[:500])  # Prints only the first 500 bytesrint(r.content)
 min = min(Lista_tempo)
 max = max(Lista_tempo)

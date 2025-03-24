@@ -5,9 +5,12 @@ from matplotlib import pyplot as plt
 n_richeste = 10
 sito = [
     "http://www.wikipedia.org",
-    "http://www.siti.org",
-    "http://www.sitinazionale.org",
-    "http://www.irs.gov",
+    "http://www.wikipedia.org",
+    "http://www.wikipedia.org",
+    "http://www.wikipedia.org",
+    "http://www.wikipedia.org",
+    "http://www.wikipedia.org",
+    "http://www.wikipedia.org",
 ]
 plt.figure()
 for sito in sito:
